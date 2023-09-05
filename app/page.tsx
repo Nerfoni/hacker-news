@@ -1,5 +1,5 @@
 import { LoadMore } from "@/components/LoadMore";
-import { Stories } from "@/components/stories/Stories";
+import { Stories } from "@/components/Stories";
 import { getStories, getTopStoryIds } from "@/actions/stories";
 
 const Home = async () => {

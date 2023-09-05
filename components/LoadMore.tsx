@@ -3,9 +3,9 @@
 import { Story } from "@/types";
 import { useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
-import { Spinner } from "./spinner/Spinner";
+import { Spinner } from "./Spinner";
 import { getStories } from "@/actions/stories";
-import { Stories } from "./stories/Stories";
+import { Stories } from "./Stories";
 
 export const LoadMore = ({ storyIds, maxStories }: { storyIds: number[]; maxStories: number }) => {
   const [stories, setStories] = useState<Story[]>([]);
