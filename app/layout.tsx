@@ -20,7 +20,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className={inter.className}>
         <Providers>
           <Header />
-          {children}
+          <main className="flex min-h-screen flex-col items-center px-10 py-10">{children}</main>
         </Providers>
       </body>
     </html>
