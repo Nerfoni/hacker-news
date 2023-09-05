@@ -1,5 +1,5 @@
 import { buttonVariants } from "@/components/ui/button";
-import { getStory } from "@/lib/api";
+import { getStory } from "@/actions/stories";
 import { format } from "date-fns";
 import { ChevronLeft, Link as LucideLink } from "lucide-react";
 import Link from "next/link";
