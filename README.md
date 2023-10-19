@@ -1,5 +1,7 @@
 # Hacker News
 
+![hackernewsassignment](https://github.com/Nerfoni/hacker-news/assets/78560347/a9736fc3-8078-4c7b-a7e5-612618567d6c)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 This project was made as a part of an job review assignment in a day. It also acted as an experiment to try out new techniques and libraries I hadn't used before such as [shadcn](https://ui.shadcn.com/) UI components and [Tailwind CSS](https://tailwindcss.com/). The home page displays top stories from [Hacker News](https://news.ycombinator.com/) and utilizes server side rendering. New stories are fetched using continuous scrolling and Next.js server actions.
